@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyApp</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Awesome App</h1>
+            <h2>This app will change your life!</h2>
+            <a href="#" class="btn">Download Now</a>
+            <div class="submenu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contacts</a>
+             </div> 
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+
+            <div class="feature">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjU2LDBDMTYxLjg5NiwwLDg1LjMzMyw3Ni41NjMsODUuMzMzLDE3MC42NjdjMCwyOC4yNSw3LjA2Myw1Ni4yNiwyMC40OSw4MS4xMDRMMjQ2LjY2Nyw1MDYuNQ0KCQkJYzEuODc1LDMuMzk2LDUuNDQ4LDUuNSw5LjMzMyw1LjVzNy40NTgtMi4xMDQsOS4zMzMtNS41bDE0MC44OTYtMjU0LjgxM2MxMy4zNzUtMjQuNzYsMjAuNDM4LTUyLjc3MSwyMC40MzgtODEuMDIxDQoJCQlDNDI2LjY2Nyw3Ni41NjMsMzUwLjEwNCwwLDI1NiwweiBNMjU2LDI1NmMtNDcuMDUyLDAtODUuMzMzLTM4LjI4MS04NS4zMzMtODUuMzMzYzAtNDcuMDUyLDM4LjI4MS04NS4zMzMsODUuMzMzLTg1LjMzMw0KCQkJczg1LjMzMywzOC4yODEsODUuMzMzLDg1LjMzM0MzNDEuMzMzLDIxNy43MTksMzAzLjA1MiwyNTYsMjU2LDI1NnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" />
+                <p>An awesome feature</p>
+            </div>
+            
+            <div class="feature">
+                <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iYm9sZCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMjQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGc+PHBhdGggZD0ibTYuMjUgMTkuNWMtMS42MDEgMC0zLjAyNS0xLjAyNS0zLjU0Mi0yLjU1MWwtLjAzNS0uMTE1Yy0uMTIyLS40MDQtLjE3My0uNzQ0LS4xNzMtMS4wODR2LTYuODE4bC0yLjQyNiA4LjA5OGMtLjMxMiAxLjE5MS4zOTkgMi40MjYgMS41OTIgMi43NTVsMTUuNDYzIDQuMTQxYy4xOTMuMDUuMzg2LjA3NC41NzYuMDc0Ljk5NiAwIDEuOTA2LS42NjEgMi4xNjEtMS42MzVsLjkwMS0yLjg2NXoiLz48L2c+PHBhdGggZD0ibTkgOWMxLjEwMyAwIDItLjg5NyAyLTJzLS44OTctMi0yLTItMiAuODk3LTIgMiAuODk3IDIgMiAyeiIvPjwvZz48cGF0aCBkPSJtMjEuNSAyaC0xNWMtMS4zNzggMC0yLjUgMS4xMjItMi41IDIuNXYxMWMwIDEuMzc4IDEuMTIyIDIuNSAyLjUgMi41aDE1YzEuMzc4IDAgMi41LTEuMTIyIDIuNS0yLjV2LTExYzAtMS4zNzgtMS4xMjItMi41LTIuNS0yLjV6bS0xNSAyaDE1Yy4yNzYgMCAuNS4yMjQuNS41djcuMDk5bC0zLjE1OS0zLjY4NmMtLjMzNS0uMzkzLS44Mi0uNjAzLTEuMzQxLS42MTUtLjUxOC4wMDMtMS4wMDQuMjMzLTEuMzM2LjYzMWwtMy43MTQgNC40NTgtMS4yMS0xLjIwN2MtLjY4NC0uNjg0LTEuNzk3LS42ODQtMi40OCAwbC0yLjc2IDIuNzU5di05LjQzOWMwLS4yNzYuMjI0LS41LjUtLjV6Ii8+PC9zdmc+" />
+                <p>An awesome feature</p>
+            </div>
+
+            <div class="feature">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjMwLjc0M3B4IiBoZWlnaHQ9IjMwLjc0NHB4IiB2aWV3Qm94PSIwIDAgMzAuNzQzIDMwLjc0NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzAuNzQzIDMwLjc0NDsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTI4LjU4NSw5LjY3aC0wLjg0MnY5LjI1NWMwLDEuNDQxLTAuODM5LDIuNzQ0LTIuNTIxLDIuNzQ0SDguNzQzdjAuNDRjMCwxLjI3NCwxLjQ0OSwyLjU2LDIuOTM3LDIuNTZoMTIuNTk5bDQuODIsMi44MzQNCgkJTDI4LjQsMjQuNjY5aDAuMTg1YzEuNDg3LDAsMi4xNTgtMS4yODMsMi4xNTgtMi41NlYxMS44NjdDMzAuNzQzLDEwLjU5MywzMC4wNzIsOS42NywyOC41ODUsOS42N3oiLz4NCgk8cGF0aCBkPSJNMjIuNzYyLDMuMjRIMy42MjJDMS45MzgsMy4yNCwwLDQuNzM2LDAsNi4xNzh2MTEuNmMwLDEuMzI4LDEuNjQyLDIuMjg3LDMuMjE3LDIuNDM1bC0xLjAyNSwzLjg5MUw4Ljc2LDIwLjI0aDE0LjAwMg0KCQljMS42ODQsMCwzLjIzOC0xLjAyMSwzLjIzOC0yLjQ2MlY4LjM5M1Y2LjE3OEMyNiw0LjczNiwyNC40NDUsMy4yNCwyMi43NjIsMy4yNHogTTYuNTQyLDEzLjAzMmMtMC45NTUsMC0xLjcyOS0wLjc3NC0xLjcyOS0xLjcyOQ0KCQlzMC43NzQtMS43MjksMS43MjktMS43MjljMC45NTQsMCwxLjcyOSwwLjc3NCwxLjcyOSwxLjcyOVM3LjQ5NiwxMy4wMzIsNi41NDIsMTMuMDMyeiBNMTMsMTMuMDMyDQoJCWMtMC45NTUsMC0xLjcyOS0wLjc3NC0xLjcyOS0xLjcyOVMxMi4wNDUsOS41NzQsMTMsOS41NzRzMS43MjksMC43NzQsMS43MjksMS43MjlTMTMuOTU1LDEzLjAzMiwxMywxMy4wMzJ6IE0xOS40NTksMTMuMDMyDQoJCWMtMC45NTUsMC0xLjczLTAuNzc0LTEuNzMtMS43MjlzMC43NzUtMS43MjksMS43My0xLjcyOWMwLjk1MywwLDEuNzI5LDAuNzc0LDEuNzI5LDEuNzI5UzIwLjQxMiwxMy4wMzIsMTkuNDU5LDEzLjAzMnoiLz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" />
+                <p>An awesome feature</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="quote">
+        <blockquote class="container">
+            <p>"Some great quote!"</p>
+            <cite>Satisfied Customer</cite>
+        </blockquote>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+            <p>&copy; All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        $(function(){
+            $(".btn").click(function(){
+                $(".submenu").slideToggle(500);
+            });
+        });
+    </script>
+</body>
+</html>
